@@ -10,6 +10,7 @@ enum class Food(val item: Int, val heal: Int = 0, val overheal: Boolean = false,
      * Sea food.
      */
     SHRIMP(item = Items.SHRIMPS, heal = 3),
+    TESTING(item = Items.SNAKE_WEED, heal = 1),
     SARDINE(item = Items.SARDINE, heal = 4),
     HERRING(item = Items.HERRING, heal = 5),
     MACKEREL(item = Items.MACKEREL, heal = 6),
